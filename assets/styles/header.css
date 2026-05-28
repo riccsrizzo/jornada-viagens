@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.cabecalho__logo {
+.img-mobile {
   display: inline-block;
 }
 
@@ -43,6 +43,10 @@ nav {
   font-size: 24px;
 }
 
+.img-desktop {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .cabecalho__navegacao {
     margin-top: 0;
@@ -65,5 +69,29 @@ nav {
 
   .cabecalho__lista li {
     margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cabecalho {
+    padding: 38px 120px;
+  }
+
+  .img-desktop {
+    display: block;
+  }
+
+  .img-mobile {
+    display: none;
+  }
+
+  .cabecalho__navegacao a:hover {
+    color: var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .cabecalho {
+    padding: 38px 160px;
   }
 }
