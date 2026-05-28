@@ -1,3 +1,20 @@
 .cabecalho {
-    background-color: var(--background-tertiary-color);
+  background-color: var(--background-tertiary-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 37px 48px;
+}
+
+.cabecalho__logo {
+  display: inline-block;
+  width: 68px;
+  height: 64px;
+}
+
+.cabecalho__navegacao {
+  margin-top: 24px;
+}
+
+nav {
+  display: none;
 }
