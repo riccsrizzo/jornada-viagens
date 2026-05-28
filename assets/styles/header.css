@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   padding: 37px 48px;
+  position: relative;
 }
 
 .cabecalho__logo {
@@ -17,8 +18,26 @@
 
 input[type="checkbox"]:checked ~ nav {
   display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-tertiary-color);
 }
 
 nav {
   display: none;
+}
+
+.cabecalho__lista {
+  list-style: none;
+}
+
+.cabecalho__lista li {
+    margin: 16px 0 16px 16px;
+}
+
+.cabecalho__lista li a {
+  text-decoration: none;
+  color: var(--text-secondary-color);
 }
