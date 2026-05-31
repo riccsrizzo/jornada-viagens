@@ -1,32 +1,61 @@
-.section-cards {
-  background-image: url();
+.card {
+  color: var(--text-secondary-color);
+  width: 312px;
+  height: 288px;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  border-radius: 16px;
   background-color: black;
+  text-align: center;
+}
+
+.card header {
+  display: block;
+  background-color: transparent;
+  position: static;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+}
+
+.card h3 {
+  font-size: 40px;
+  font-weight: var(--titles-weight);
+  margin: 8px 0 0;
+}
+
+.card span {
+  font-size: 32px;
+  font-weight: var(--titles-weight);
+  margin-top: 24px;
+  display: inline-block;
+}
+
+/* .offers-cards {
+  background-image: url(../img/card-japao-mobile.jpg);
   text-align: center;
   color: var(--text-secondary-color);
   border: 32px solid #000000;
-  border-radius: 5px;
+
   margin: 32px 24px 24px 24px;
 }
 
-.section-cards h3 {
-  font-size: 20px;
-  font-weight: var(--text-weight);
+.offers-cards h3 {
   padding: 24px 0 8px 0;
 }
 
-.section-cards h2 {
+.offers-cards h2 {
   font-size: 40px;
   font-weight: var(--titles-weight);
   padding-bottom: 24px;
 }
 
-.section-cards h4 {
+.offers-cards h4 {
   font-size: 32px;
   font-weight: var(--titles-weight);
   margin-bottom: 40px;
 }
 
-.section-cards a {
+.offers-cards a {
   text-decoration: none;
   font-size: 20px;
   font-weight: var(--titles-weight);
@@ -35,4 +64,4 @@
   width: 280px;
   background-color: var(--secundary-color);
   color: var(--text-secondary-color);
-}
+} */
