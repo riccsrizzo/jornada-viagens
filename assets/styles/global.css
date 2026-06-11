@@ -31,6 +31,7 @@ body {
   font-weight: var(--titles-weight);
   margin: 0;
   text-align: center;
+  line-height: 38px;
 }
 .section-title hr {
   width: 180px;
@@ -54,6 +55,7 @@ body {
   margin-top: 24px;
 }
 
+
 @media screen and (min-width: 768px) {
   .section-title h2 {
     font-size: 32px;
@@ -61,7 +63,7 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-  .button:hover{
+  .button:hover {
     background-color: var(--primary-color);
   }
 }
