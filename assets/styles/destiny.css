@@ -10,7 +10,7 @@
   gap: 24px;
 }
 
-.destiny-content img {
+.destiny__img-mobile {
   width: 312px;
   height: 360px;
   margin: 0 auto;
@@ -32,11 +32,64 @@
 }
 
 .destiny-content a {
-    text-align: center;
-    margin: 0 auto;
-    width: 312px;
+  text-align: center;
+  margin: 0 auto;
+  width: 312px;
 }
 
 .img-destiny {
-    padding-top: 40px;
+  padding-top: 40px;
+}
+
+.destiny__img-tablet {
+  display: none;
+}
+
+@media screen and (min-width: 425px) {
+  .destiny-content h2 {
+    margin-left: 56.8px;
+  }
+  .destiny-content p {
+    margin-left: 56.8px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .destiny__img-mobile {
+    display: none;
+  }
+  .destiny__img-tablet {
+    display: block;
+    width: 648px;
+    height: 452px;
+    margin: 0 60px;
+  }
+  .destiny-content h2 {
+    margin: 0 60px;
+  }
+  .destiny-content p {
+    margin: 0 60px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .destiny-content {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .destiny__img-tablet {
+    display: block;
+    width: 588px;
+    height: 452px;
+    margin: 0;
+  }
+  .destiny-content h2 {
+    margin:24px 0 24px 0;
+  }
+  .destiny-content p {
+    margin: 0 0 24px 0;
+  }
+  
+
 }
