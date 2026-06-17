@@ -117,7 +117,7 @@
   .destiny-content a {
     display: inline-block;
     text-align: center;
-    margin: 0 0px;
+    margin: 0;
     width: 312px;
   }
 }
