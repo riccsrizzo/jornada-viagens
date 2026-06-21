@@ -1,0 +1,142 @@
+.conditions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 88px;
+  box-sizing: border-box;
+}
+
+.conditions .section-title {
+  width: 312px;
+}
+
+.conditions-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conditions-text h2 {
+  font-size: 28px;
+  font-weight: var(--titles-weight);
+  width: 312px;
+  height: 68px;
+  margin: 0 0 24px 0;
+}
+
+.conditions-text p {
+  font-size: 20px;
+  font-weight: var(--menu-text-weight);
+  line-height: 30px;
+  width: 312px;
+  height: 160px;
+}
+
+.conditions-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.conditions-img {
+  width: 144px;
+  height: 254px;
+}
+
+.conditions-img2 {
+  width: 312px;
+  height: 182px;
+}
+
+.conditions-img_tablet,
+.conditions-img_tablet2 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .conditions .section-title {
+    width: 600px;
+  }
+
+  .conditions-text h2 {
+    width: 648px;
+    height: 34px;
+    margin: 0 0 24px 0;
+  }
+
+  .conditions-text p {
+    width: 648px;
+    height: 64px;
+  }
+  .conditions-img,
+  .conditions-img2 {
+    display: none;
+  }
+
+  .conditions-img_tablet {
+    display: block;
+    width: 312px;
+    height: 254px;
+  }
+
+  .conditions-img_tablet2 {
+    display: block;
+    width: 648px;
+    height: 182px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .conditions .section-title {
+    width: 600px;
+    margin-bottom: 32px;
+  }
+
+  .conditions-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .conditions-text {
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+  }
+
+  .conditions-text h2 {
+    width: 285px;
+    height: 68px;
+    margin: 0 0 24px 0;
+  }
+
+  .conditions-text p {
+    width: 361px;
+    height: 128px;
+  }
+
+  .conditions-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .conditions-img,
+  .conditions-img2 {
+    display: none;
+  }
+
+  .conditions-img_tablet {
+    display: block;
+    width: 383.5px;
+    height: 254px;
+  }
+
+  .conditions-img_tablet2 {
+    display: block;
+    width: 790px;
+    height: 182px;
+  }
+}
